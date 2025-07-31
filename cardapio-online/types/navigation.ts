@@ -12,6 +12,7 @@ export type Aviao = {
   id: string;
   nome: string;
   pais: string;
+  bandeira: string;
   descricao: string;
   preco: string;
   imagem: string;
