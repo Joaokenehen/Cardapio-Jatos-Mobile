@@ -40,20 +40,20 @@ O código segue padrões de modularização para facilitar a manutenção:
 
 ---
 
-Instale as dependências:
-
-Bash
-npm install
-Inicie o servidor de desenvolvimento:
-
-Bash
-npx expo start
-
-👨‍💻 Autor
-João Gustavo Quennehen Estudante de Análise e Desenvolvimento de Sistemas e Desenvolvedor Enthusiast.
-
 ## 🔧 Como Rodar o Projeto Localmente
 
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/Joaokenehen/cardapio-jatos-mobile.git](https://github.com/Joaokenehen/cardapio-jatos-mobile.git)
+   
+3. Instale as dependências:
+   ```bash
+   npm install
+   
+5. Inicie o servidor de desenvolvimento:
+   ```bash
+     npx expo start
+
+## 👨‍💻 Autor
+João Gustavo Quennehen Estudante de Análise e Desenvolvimento de Sistemas e Desenvolvedor Enthusiast.
+
