@@ -1,57 +1,59 @@
-✈️ Cardápio Jatos Mobile
-Um catálogo interativo e moderno desenvolvido em React Native que apresenta os caças e bombardeiros mais avançados do mundo. O projeto permite visualizar especificações, preços e filtrar aeronaves por país de origem.
+# ✈️ Cardápio Jatos Mobile | Catálogo de Defesa Aérea
 
-🚀 Funcionalidades
-Catálogo Completo: Listagem detalhada de aeronaves como F-22 Raptor, Su-57 e B-2 Spirit.
+Bem-vindo ao repositório oficial do **Cardápio Jatos Mobile**, uma aplicação móvel de alta performance desenvolvida para entusiastas de aviação militar. O app funciona como um catálogo interativo dos caças e bombardeiros mais avançados do mundo.
 
-Filtro Inteligente: Sistema de filtragem por país (EUA, Rússia, China, etc.) para facilitar a navegação.
+Este projeto foi construído com foco em **performance e tipagem rigorosa**, oferecendo uma interface intuitiva com filtragem dinâmica por nação e detalhamento técnico completo de cada aeronave.
 
-Interface Dark: Design moderno com temática militar e cores contrastantes (Laranja Metálico e Verde Neon).
+---
 
-Navegação Fluida: Transição entre a tela de catálogo e detalhes utilizando React Navigation.
+## 🚀 Funcionalidades Principais
 
-Dados Estruturados: Consumo de dados tipados para garantir a consistência das informações.
+- **Catálogo Dinâmico:** Listagem renderizada via `FlatList` para máxima performance, exibindo nome, preço e origem.
+- **Filtro por País:** Sistema de filtragem em tempo real que permite navegar entre caças de diferentes nações.
+- **Navegação Nativa:** Fluxo de telas fluido entre o Catálogo e Detalhes utilizando `React Navigation`.
+- **Interface High-Tech:** Design moderno em *Dark Mode* com paleta de cores militar e componentes estilizados.
+- **Segurança de Dados:** Implementação completa com **TypeScript**, garantindo que as propriedades de navegação e dados dos itens estejam sempre protegidas.
 
-🛠️ Tecnologias Utilizadas
-Este projeto utiliza o que há de mais moderno no ecossistema mobile:
+---
 
-React Native: Framework para desenvolvimento mobile nativo.
+## 🛠️ Tecnologias Utilizadas
 
-Expo Router: Navegação baseada em arquivos.
+O sistema utiliza as bibliotecas líderes do ecossistema mobile atual:
 
-TypeScript: Tipagem estática para maior segurança no código.
+- **React Native (0.79.5)** + **Expo (SDK 53)**: Framework base para desenvolvimento nativo.
+- **TypeScript (5.8.3)**: Para desenvolvimento robusto e livre de erros de tipagem.
+- **React Navigation**: Gerenciamento de rotas e pilha de telas (Stack).
+- **Expo Router**: Sistema de roteamento baseado em arquivos para melhor organização.
+- **Lucide React Native**: Ícones modernos e minimalistas.
 
-React Native Reanimated: Para animações fluidas na interface.
+---
 
-Lucide React Native: Conjunto de ícones minimalistas.
+## 📂 Estrutura do Projeto
 
-📱 Telas do App
-[!TIP] Tela Principal (Cardápio): Exibe os cards com imagem, bandeira do país e preço. Tela de Detalhes: Apresenta a descrição técnica completa de cada jato.
+O código segue padrões de modularização para facilitar a manutenção:
 
-🔧 Como Executar
-Clone o repositório:
+- `/app`: Ponto de entrada e rotas principais do Expo Router.
+- `/screen`: Telas completas da aplicação (Cardapio e Detalhes).
+- `/components`: Componentes desacoplados, como o sistema de filtros e headers.
+- `/data`: Camada de persistência de dados estáticos (Itens do catálogo).
+- `/types`: Definições globais de interfaces e tipos de navegação.
 
-Bash
-git clone https://github.com/Joaokenehen/cardapio-jatos-mobile.git
+---
+
 Instale as dependências:
 
 Bash
 npm install
-Inicie o projeto com o Expo:
+Inicie o servidor de desenvolvimento:
 
 Bash
 npx expo start
-Utilize o app Expo Go no seu celular para escanear o QR Code ou pressione a para Android / i para iOS.
 
-📂 Estrutura de Pastas
-Plaintext
-├── app/               # Rotas e entry points (Expo Router)
-├── components/        # Componentes reutilizáveis (Filtros, Botões)
-├── data/              # Base de dados (ItensCardapio.tsx)
-├── screen/            # Telas principais da aplicação
-├── types/             # Definições de tipos TypeScript
-└── assets/            # Imagens e fontes
 👨‍💻 Autor
-João Gustavo Quennehen Estudante de Análise e Desenvolvimento de Sistemas
+João Gustavo Quennehen Estudante de Análise e Desenvolvimento de Sistemas e Desenvolvedor Enthusiast.
 
-Desenvolvido com ❤️ por João Gustavo
+## 🔧 Como Rodar o Projeto Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/Joaokenehen/cardapio-jatos-mobile.git](https://github.com/Joaokenehen/cardapio-jatos-mobile.git)
