@@ -1,4 +1,4 @@
-# ✈️ Cardápio Jatos Mobile | Catálogo de Defesa Aérea
+# ✈️ Catálogo Jatos Mobile | Catálogo de Defesa Aérea
 
 Bem-vindo ao repositório oficial do **Cardápio Jatos Mobile**, uma aplicação móvel de alta performance desenvolvida para entusiastas de aviação militar. O app funciona como um catálogo interativo dos caças e bombardeiros mais avançados do mundo.
 
